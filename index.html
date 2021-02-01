@@ -9,7 +9,7 @@
     <script src="TemplateData/UnityProgress.js"></script>
     <script src="Build/UnityLoader.js"></script>
     <script>
-        UnityLoader.instantiate("gameContainer", "Build/Web.json", {onProgress: UnityProgress});
+        UnityLoader.instantiate("unityContainer", "Build/Web.json", {onProgress: UnityProgress});
     </script>
     <style>
         * {
@@ -29,7 +29,7 @@
 </head>
 <body>
 <div class="webgl-content">
-    <div id="gameContainer"></div>
+    <div id="unityContainer"></div>
 </div>
 </body>
 </html>
